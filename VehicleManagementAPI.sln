@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Domain", "01. Domain", "{E2E9AF4E-DA8B-4C92-99EE-BF8E9090AE55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Data Access", "02. Data Access", "{19D56B09-0D99-4836-A86F-B29FE7CF5D72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Data Transfer Objects", "03. Data Transfer Objects", "{79FA3EB7-A7BF-47D5-B78F-D2B83A45B1BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Services", "04. Services", "{8E98B949-0B8E-4B04-9482-85F1276B22B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. API REST", "05. API REST", "{1D90BA8A-937E-4A95-821D-062BBDEE0914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementAPI.Domain", "VehicleManagementAPI.Domain\VehicleManagementAPI.Domain.csproj", "{92CA330F-F2ED-4F81-9FA3-4373AD6F5450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementAPI.Entities", "VehicleManagementAPI.Entities\VehicleManagementAPI.Entities.csproj", "{83BA754D-8248-4C4C-9FD6-C918F75F0F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementAPI.DataAccess", "VehicleManagementAPI.DataAccess\VehicleManagementAPI.DataAccess.csproj", "{BB553574-C40C-4A2C-A04A-4308AB244FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementAPI.Repositories", "VehicleManagementAPI.Repositories\VehicleManagementAPI.Repositories.csproj", "{4D8E0594-6B11-4400-9FE6-E8ABB3F6D5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementAPI.Dto", "VehicleManagementAPI.Dto\VehicleManagementAPI.Dto.csproj", "{164DDFAC-98A4-40F8-AEBD-B9A8F06FB343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementAPI.Services", "VehicleManagementAPI.Services\VehicleManagementAPI.Services.csproj", "{FFC88E55-E787-44A6-B2F1-9BA53DA63C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagementAPI", "VehicleManagementAPI\VehicleManagementAPI.csproj", "{DDB559C7-BE1A-4947-B6BF-286A21256636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92CA330F-F2ED-4F81-9FA3-4373AD6F5450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CA330F-F2ED-4F81-9FA3-4373AD6F5450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CA330F-F2ED-4F81-9FA3-4373AD6F5450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CA330F-F2ED-4F81-9FA3-4373AD6F5450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83BA754D-8248-4C4C-9FD6-C918F75F0F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BA754D-8248-4C4C-9FD6-C918F75F0F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BA754D-8248-4C4C-9FD6-C918F75F0F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BA754D-8248-4C4C-9FD6-C918F75F0F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB553574-C40C-4A2C-A04A-4308AB244FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB553574-C40C-4A2C-A04A-4308AB244FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB553574-C40C-4A2C-A04A-4308AB244FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB553574-C40C-4A2C-A04A-4308AB244FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8E0594-6B11-4400-9FE6-E8ABB3F6D5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8E0594-6B11-4400-9FE6-E8ABB3F6D5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8E0594-6B11-4400-9FE6-E8ABB3F6D5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8E0594-6B11-4400-9FE6-E8ABB3F6D5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164DDFAC-98A4-40F8-AEBD-B9A8F06FB343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164DDFAC-98A4-40F8-AEBD-B9A8F06FB343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164DDFAC-98A4-40F8-AEBD-B9A8F06FB343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164DDFAC-98A4-40F8-AEBD-B9A8F06FB343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC88E55-E787-44A6-B2F1-9BA53DA63C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC88E55-E787-44A6-B2F1-9BA53DA63C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC88E55-E787-44A6-B2F1-9BA53DA63C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC88E55-E787-44A6-B2F1-9BA53DA63C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB559C7-BE1A-4947-B6BF-286A21256636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB559C7-BE1A-4947-B6BF-286A21256636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB559C7-BE1A-4947-B6BF-286A21256636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB559C7-BE1A-4947-B6BF-286A21256636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92CA330F-F2ED-4F81-9FA3-4373AD6F5450} = {E2E9AF4E-DA8B-4C92-99EE-BF8E9090AE55}
+		{83BA754D-8248-4C4C-9FD6-C918F75F0F20} = {E2E9AF4E-DA8B-4C92-99EE-BF8E9090AE55}
+		{BB553574-C40C-4A2C-A04A-4308AB244FA5} = {19D56B09-0D99-4836-A86F-B29FE7CF5D72}
+		{4D8E0594-6B11-4400-9FE6-E8ABB3F6D5F1} = {19D56B09-0D99-4836-A86F-B29FE7CF5D72}
+		{164DDFAC-98A4-40F8-AEBD-B9A8F06FB343} = {79FA3EB7-A7BF-47D5-B78F-D2B83A45B1BC}
+		{FFC88E55-E787-44A6-B2F1-9BA53DA63C4C} = {8E98B949-0B8E-4B04-9482-85F1276B22B7}
+		{DDB559C7-BE1A-4947-B6BF-286A21256636} = {1D90BA8A-937E-4A95-821D-062BBDEE0914}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F454523-8A62-4D8B-9837-96997E1562E8}
+	EndGlobalSection
+EndGlobal
